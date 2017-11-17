@@ -4,11 +4,6 @@ Go Date Parser
 Parse any date string without knowing format in advance.  Uses a scanner to read bytes and use a state machine to find format.  Much faster than shotgun based parse methods.  See [bench_test.go](https://github.com/noaway/dateparse/blob/master/bench_test.go) for performance comparison.
 
 
-[![Code Coverage](https://codecov.io/gh/noaway/dateparse/branch/master/graph/badge.svg)](https://codecov.io/gh/noaway/dateparse)
-[![GoDoc](https://godoc.org/github.com/noaway/dateparse?status.svg)](http://godoc.org/github.com/noaway/dateparse)
-[![Build Status](https://travis-ci.org/noaway/dateparse.svg?branch=master)](https://travis-ci.org/noaway/dateparse)
-[![Go ReportCard](https://goreportcard.com/badge/noaway/dateparse)](https://goreportcard.com/report/noaway/dateparse)
-
 
 **Timezones** The location your server is configured effects the results!  See example or https://play.golang.org/p/IDHRalIyXh and last paragraph here https://golang.org/pkg/time/#Parse.
 
